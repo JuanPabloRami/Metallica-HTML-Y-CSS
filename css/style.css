@@ -1,0 +1,205 @@
+html{
+    font-family: 'Titillium Web';
+}
+
+
+body{
+    background-image: url(../images/backgroundXD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main{    
+    background-color: #1f1f1f;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid 1px ;color: #ffffff00;
+    border-radius:20px;
+    box-shadow: -5px 5px 5px #727272;
+    font-family: 'georgia';
+}
+
+
+
+.imagenhistoria{
+    
+    position: center;
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+
+
+nav {
+    text-align: center;
+    background-color: #505050;
+    height: 50px;  
+}
+
+nav ul li a img{
+    width: 10%;
+    margin-top: -12px;
+    margin-bottom: -16px;
+}
+
+
+nav ul li{
+    
+    display: inline; 
+    list-style: none;  
+}
+
+
+nav ul li a{
+    text-decoration: none; 
+    color: #ffffff;
+    background:#af0000;
+    line-height: 49px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px #000; 
+
+}
+
+nav ul li a:hover{   
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px #000;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 40px;        
+    color: #a0a0a0
+}
+
+h2{
+    text-align: center;
+    color:#ffffff
+}
+
+h3{
+    color:red
+}
+
+
+p{
+
+
+    text-align: center;
+    margin: 0px 100px;
+    color:white
+}
+
+img{
+    position: center;
+    width: 70%;
+
+
+
+}
+#titulo{
+    width: 60%;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color:#ffffff
+    text-shadow: 0px 5px 5px floralwhite
+}
+
+
+.album {
+    float: left;
+    width: 350px;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+
+.album a{
+    text-decoration: none;
+}
+
+.algo:hover{
+    width: 300px;
+    padding-left: 5px;
+    
+
+}
+
+.algo img:hover{
+    box-shadow:5px 6px 6px #c00505; 
+    
+}
+
+.album p{
+    display: inline;
+    margin: 0 auto;
+    text-align: right;
+    text-decoration: none;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+.redes img{
+    width: 240px;
+    margin-right: 97px;
+    margin-bottom: 100px;
+}
+
+form{
+    background-color: #414141;
+    width: 600px;
+    height:600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: solid 1px #00000000;
+    text-align: center;
+    border-radius:20px;
+    box-shadow: -3px 3px 3px #585858;
+}
+
+label{
+    color: #fff;
+}
+
+
+
+form input{
+    padding: 10px;
+    background: #6e6e6e;
+    display:fixed;
+    border-radius: 5px;
+    border-bottom: 3px solid #8a0000;
+    box-shadow: -4px 4px 4px #727272;
+}
+
+    ::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.541);
+}
+
+form input[type="submit"]{
+    margin: 30px;
+}
+
+form input[type="submit"]:hover{
+    padding: 12px;
+    background:#ffffff;
+}
+
